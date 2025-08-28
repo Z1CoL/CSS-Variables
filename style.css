@@ -1,0 +1,49 @@
+:root {
+  --primary-color: rgb(192, 30, 52);
+  --background: white;
+  --text-color: black;
+  --button-radius: 5px;
+}
+
+.dark {
+  --primary-color: rgb(204, 163, 169);
+  --background: black;
+  --text-color: white;
+}
+
+.halloween {
+  --primary-color: rgb(253, 26, 60);
+  --background: black;
+  --text-color: white;
+  --button-radius: 0;
+}
+
+.newyear {
+  --primary-color: rgb(26, 196, 253);
+  --background: rgb(41, 64, 90);
+  --text-color: white;
+  --button-radius: 50%;
+}
+
+html,
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+.category {
+  background-color: var(--primary-color);
+  padding: 5px;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.button {
+  background-color: var(--primary-color);
+  border: 0;
+  color: white;
+  padding: 5;
+  border-radius: var(--button-radius);
+}

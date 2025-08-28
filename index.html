@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS</title>
+  </head>
+  <body>
+    <button class="button" onclick="changeTheme('')">Light</button>
+    <button class="button" onclick="changeTheme('dark')">Dark</button>
+    <button class="button" onclick="changeTheme('halloween')">halloween</button>
+    <button class="button" onclick="changeTheme('newyear')">new year</button>
+
+    <div class="category" style="margin-top: 20px">Choloot</div>
+    <p>
+      өөрчлөлтөөр
+      <a href="https://unread.today/c/chuluut-people-in-need"
+        >хязгаарлагдлгүй</a
+      >
+      бизнесийн загвар, хэрэглэгчийн хандлага, хөрөнгө оруулалтын шийдлүүдийг
+      бүхэлд нь тодорхойлдог болжээ. БОНЗ-ын үнэлгээ гэдэг нь байгууллагын ашигт
+      ажиллагаанаас гадна байгаль орчинд хэрхэн нөлөөлж буй, ажилчид болон
+      нийгмийн өмнө ямар хариуцлага хүлээж буй, удирдлагын тогтолцоо нь хэр
+      зэрэг ил тод, шударга эсэхийг хэмждэг олон улсын шалгуур юм. Энэ үнэлгээ
+      нь бизнесийн ирээдүйн чадавх, хөрөнгө оруулалтын найдвартай байдал,
+      хэрэглэгчдийн итгэлийн үндэс болж буй.
+      <button class="button">Click me</button>
+    </p>
+
+    <script>
+      function changeTheme(theme) {
+        document.documentElement.className = theme;
+      }
+    </script>
+  </body>
+</html>
